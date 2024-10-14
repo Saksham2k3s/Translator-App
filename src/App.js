@@ -53,6 +53,7 @@ function App() {
 
         {/* Main Translation Box */}
         <div className=" w-[100%] lg:w-[80%] h-screen flex flex-col justify-center align-middle  ">
+          <div className="text-black text-lg lg:text-4xl text-center py-4 " ><span className=" text-purple-400 " >Linguify:</span> Your Personal Language Translator</div>
           <TranslationBox />
         </div>
       </div>
